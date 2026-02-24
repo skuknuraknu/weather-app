@@ -51,29 +51,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## Project Structure
-
-```
-app/
-  api/weather/route.ts   # API route — all OWM calls happen here
-  page.tsx               # Main page with all UI logic
-  globals.css
-
-components/
-  backgrounds/           # GSAP animated backgrounds (Rain, Sunny, Cloudy, Night)
-  ui/                    # WeatherSkeleton, ErrorToast
-
-hooks/
-  use-weather.ts         # TanStack Query wrapper
-  use-debounce.ts
-
-lib/
-  get-weather-advice.ts  # Clothing + activity suggestions based on conditions
-  get-local-is-daytime.ts # dt + timezone → local hour → day or night
-
-types/
-  weather.types.ts
-```
+## Screenshots
+<img width="1919" height="900" alt="image" src="https://github.com/user-attachments/assets/9fc8aa14-900d-4a97-b67c-ab82b7341acd" />
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/d2370493-0024-4d2c-889b-95a6740f1740" />
+<img width="1919" height="909" alt="image" src="https://github.com/user-attachments/assets/fa662fce-5f65-4970-89fb-e7e4832f37a8" />
 
 ---
 
